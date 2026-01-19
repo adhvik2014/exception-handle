@@ -1,7 +1,12 @@
-try :
-    num = int(input("enter your number : "))
-    print(num)
-except ValueError as ex:
-    print("Exception: ",ex)
-print("I am outside the try block")
 
+
+
+valid = False
+while not valid:
+try:
+    n=int(input("enter a number: "))
+    while n%2 == 0:
+        print("bye")
+        valid = true 
+except valueError:
+    print("invalid")
